@@ -1,0 +1,9 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(èì±İ8×œî€0
+X	java:S125	"<This block of commented-out lines of code should be removed.(¬ºä³8Øœî€0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹ğğ¡8Ùœî€0
+E
+java:S1068"(Remove this unused "name" private field.(‚ñ½8Ûœî€0
+O
+java:S1144
+"-Remove this unused private "sayHello" method.(¾¿¸—ÿÿÿÿÿ8İœî€0

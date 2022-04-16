@@ -1,13 +1,33 @@
 package com.qui.animal;
 
-/* Class */
+// Animal class:
 /* How to declare a Java class: access modifier + "class" keyword + class name + {} */
 public class Animal {
-  private String name = "Animal";
+  // FIELDS:
+  protected String name = "Animal";
 
-  /* Method */
+  // CONSTRUCTORS:
+  // Default constructor:
+  public Animal() {}
+
+  // Constructor with parameters:
+  public Animal(String name) {
+    this.name = name;
+  }
+
+  // METHODS:
   /* How to declare a Java method: access modifier + return data type + method name + (method parameters) + {} */
-  private void sayHello() {
-    System.out.println("Hello! I am Animal.");
+  // Getters & Setters:
+  public String getName() {
+    return this.name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  // Public methods:
+  protected void sayHello() {
+    System.out.println("Hello! I am " + this.name + ".");
   }
 }
